@@ -38,4 +38,38 @@ public class LoopFor {
     }
 }
 
+*** Inheritancd***
+
+package inheritance;
+
+class A
+
+{
+   protected int age;
+   protected String name;
+   
+}
+class B extends A
+{
+    public void demo()
+    {
+     age = 20;
+     name = "Ranjana";
+     
+        System.out.println("your age is"+ age);
+        System.out.println("your name is"+ name);
+    }
+    
+}
+public class Inheritance {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       B b= new B();
+       b.demo();
+    }
+    
+}
 
